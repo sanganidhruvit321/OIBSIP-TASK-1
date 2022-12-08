@@ -1,0 +1,123 @@
+#header{
+    color: #fff;
+    background: hsl(256, 40%, 18%);
+    /* display: flex; */
+    justify-content: center;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px black;
+    position: fixed;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    text-decoration: none;
+    position: fixed;
+    width:100%;
+    background-color: hsl(256, 40%, 18%);
+    left: 0;
+    padding-left: 20px;
+}
+.navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.list{
+    display: flex;
+}
+#logo{
+    font-size:2rem;
+    margin-left: 20px;
+    margin-top: 5px;; 
+} 
+#footer{
+    color:#fff;
+    background:  hsl(256, 40%, 18%);
+    padding: 10px 0;;
+}
+#social-icons{
+list-style: none;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+#social-icons li{
+    display: block;
+    padding-left: 5px;
+}
+#social-icons li a{
+    color: #fff;
+    font-size: 23px;
+}
+.service-box{
+    text-align: center;
+}
+.section-head{
+    text-align: center;
+    color: #c0392b;
+}
+.service-box h3 a{
+    text-decoration: none;
+}
+.service-box h3{
+    color: #fff;
+    background:hsl(256, 40%, 18%); 
+    padding-bottom: 10px;
+}
+.service-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+#hero{
+    background-image: url("../image/b.jpg");
+    height:90vh;
+    width:100%;
+    background-size:cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+#hero h4{
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+#hero h2{
+    font-size: 40px;
+}
+#hero h1{
+    color: #c0392b;
+    font-size: 45px;
+}
+#hero p{
+    font-size: 20px;
+}
+#hero button{
+    background-image: url("../image/3.jpg");
+    background-color:transparent;
+    color:#fff ;
+    border: 0;
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 14px 80px 14px 65px;
+}
+.ic{
+    display: flex;
+    margin-left: 0;
+}
+#fac{
+    padding-top: 10px;;
+}
+#hello{
+    padding-top:10px;
+    padding-left: 20px;
+}
